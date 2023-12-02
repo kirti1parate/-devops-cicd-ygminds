@@ -22,7 +22,7 @@ pipeline {
             steps{
                 script{
                    withCredentials([string(credentialsId: 'dockerhub-pwd', variable: 'dockerhubpwd')]) {
-                   sh 'docker login -u kirti.l.parate -p ${dockerhubpwd}'
+                   sh 'docker login -u kirti1111 -p ${dockerhubpwd}'
 
 }
                    
